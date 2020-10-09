@@ -1,3 +1,5 @@
+App is deployed at https://gui-math-exp-839d0.web.app/
+
 Screenshots of the App: 
 
 ![alt_text](https://github.com/peeyush14goyal/GUI-Math-Expressions-ReactJS/blob/master/src/screenshots/gui-exp1.PNG)
