@@ -11,6 +11,7 @@ class App extends Component {
       { id: 3, value: 6 },
       { id: 4, value: 28 },
     ],
+    expVal: false,
   };
 
   handleIncrement = (val) => {
@@ -33,17 +34,15 @@ class App extends Component {
     const sum1 =
       this.state.digits_d[0].value * this.state.digits_d[1].value -
       this.state.digits_d[2].value;
-
     if (sum1 === this.state.digits_d[3].value) {
       return true;
-    } else {
-      return false;
     }
+    return false;
   };
 
   render() {
     return (
-      <main className="container displayExp">
+      <div className="App displayExp">
         <Digit
           digits_d={this.state.digits_d}
           onIncrement={this.handleIncrement}
@@ -52,12 +51,12 @@ class App extends Component {
         />
         <div className="equalSign">=</div>
         <div className="ansDiv">
-          <p className={this.checkCal1 ? "colorGreen" : "colorRed"}>
+          <p className={this.checkCal1() ? "colorGreen" : "colorRed"}>
             {this.state.digits_d[3].value}
           </p>
           <Expr checkCal={this.checkCal1} />
         </div>
-      </main>
+      </div>
     );
   }
 }

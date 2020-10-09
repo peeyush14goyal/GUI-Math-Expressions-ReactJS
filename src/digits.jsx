@@ -7,7 +7,7 @@ class Digit extends Component {
     return (
       <div className="expDiv">
         <div className="digitsDiv">
-          <div>
+          <div className="digitBackground">
             <span className="display_digit" onChange={this.props.checkVal()}>
               {this.props.digits_d[0].value}
             </span>
@@ -39,7 +39,7 @@ class Digit extends Component {
         </div>
 
         <div className="digitsDiv">
-          <div>
+          <div className="digitBackground">
             <span className="display_digit" onChange={this.props.checkVal()}>
               {this.props.digits_d[1].value}
             </span>
@@ -72,7 +72,7 @@ class Digit extends Component {
         </div>
 
         <div className="digitsDiv">
-          <div>
+          <div className="digitBackground">
             <span className="display_digit" onChange={this.props.checkVal()}>
               {this.props.digits_d[2].value}
             </span>
