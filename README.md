@@ -1,5 +1,9 @@
 Screenshots of the App: 
 
+![alt text] (https://github.com/peeyush14goyal/GUI-Math-Expressions-ReactJS/blob/master/src/screenshots/gui-exp1.PNG)
+
+![alt text] (https://github.com/peeyush14goyal/GUI-Math-Expressions-ReactJS/blob/master/src/screenshots/gui-exp2.PNG)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
